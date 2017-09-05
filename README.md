@@ -29,8 +29,7 @@ Twitter Setup
      You need a valid twitter account to tweet and need to implement the following steps from your account.
      
      1) Go to https://apps.twitter.com
-     2) Create a new app and generate your Consumer Key, Consumer Secret, Access token and Access token secret and replace 
-     these values under TwitterBot/letsTweet.py
+     2) Create a new app and generate your Consumer Key, Consumer Secret, Access token and Access token secret and replace these values under TwitterBot/letsTweet.py
      3) Save the changes.
 
 Note-Tweets cannot be duplicated.
