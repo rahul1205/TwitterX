@@ -25,8 +25,7 @@ and run the following set of commands from inside the portaudio directory
 
     ./configure && make
     sudo make install
-    sudo pip install pyaudio --upgrade
-    
+    sudo pip install pyaudio --upgrade (run this only if you have an older version of pyaudio)
     
 <h4>Twitter Setup</h4>
      You need a valid twitter account to tweet and need to implement the following steps from your account.
