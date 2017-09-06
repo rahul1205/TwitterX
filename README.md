@@ -13,7 +13,7 @@ To use all of the functionality of the library, you should have:
     FLAC encoder (required only if the system is not x86-based Windows/Linux/OS X)
 
 
-<h5>Commands to run</h5>
+<h4>Commands to run</h4>
 
     sudo apt-get install python-pip
     sudo apt-get install portaudio-dev
@@ -29,7 +29,7 @@ and run the following set of commands from inside the portaudio directory
     sudo pip install pyaudio --upgrade
     
     
-<h5>Twitter Setup</h5>
+<h4>Twitter Setup</h4>
      You need a valid twitter account to tweet and need to implement the following steps from your account.
      
      1) Go to https://apps.twitter.com
@@ -43,6 +43,6 @@ For language changes and other settings in speech to text conversions, view http
 
 
 
-<h7>Finally, execute the letsTweet.py under MyTwitterBot/TwitterBot using command "python letsTweet.py".</h7>
+<h6>Finally, execute the letsTweet.py under MyTwitterBot/TwitterBot using command "python letsTweet.py".</h6><br>
 <b><i>P.S.</b>Remember to say 'exit' if you want to quit without tweeting</i>
      
