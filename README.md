@@ -1,4 +1,4 @@
-Requirements
+<b>Requirements</b>
 
 To use all of the functionality of the library, you should have:
     
