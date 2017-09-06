@@ -1,4 +1,8 @@
-<b>Requirements</b>
+<h1>SpeakAndTweet</h1>
+A command line utility that can be used to tweet an input from microphone. You'll never have to type again.!!!
+<hr>
+
+<h3>Requirements</h3>
 
 To use all of the functionality of the library, you should have:
     
@@ -9,7 +13,7 @@ To use all of the functionality of the library, you should have:
     FLAC encoder (required only if the system is not x86-based Windows/Linux/OS X)
 
 
-Commands to run
+<h5>Commands to run</h5>
 
     sudo apt-get install python-pip
     sudo apt-get install portaudio-dev
@@ -17,7 +21,7 @@ Commands to run
     sudo pip install google-cloud
     sudo pip install twython
 
-Note-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here https://pypi.python.org/pypi/PyAudio
+<b>Note</b>-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here https://pypi.python.org/pypi/PyAudio
 and run the following set of commands from inside the portaudio directory
 
     ./configure && make
@@ -25,14 +29,14 @@ and run the following set of commands from inside the portaudio directory
     sudo pip install pyaudio --upgrade
     
     
-Twitter Setup
+<h5>Twitter Setup</h5>
      You need a valid twitter account to tweet and need to implement the following steps from your account.
      
      1) Go to https://apps.twitter.com
      2) Create a new app and generate your Consumer Key, Consumer Secret, Access token and Access token secret and replace these values under TwitterBot/letsTweet.py
      3) Save the changes.
 
-Note-Tweets cannot be duplicated.
+<b>Note</b>-Tweets cannot be duplicated.
 
 For language changes and other settings in speech to text conversions, view https://github.com/Uberi/speech_recognition
 
