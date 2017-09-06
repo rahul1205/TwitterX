@@ -44,5 +44,5 @@ For language changes and other settings in speech to text conversions, view http
 <br>
 
 <h6>Finally, execute the letsTweet.py under MyTwitterBot/TwitterBot using command "python letsTweet.py".</h6>
-<b><i>P.S.</b>Remember to say 'exit' if you want to quit without tweeting</i>
+<b><i>P.S.</b> Remember to say 'exit' if you want to quit without tweeting</i>
      
