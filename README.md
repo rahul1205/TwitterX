@@ -39,10 +39,7 @@ and run the following set of commands from inside the portaudio directory
 <b>Note</b>-Tweets cannot be duplicated.
 
 For language changes and other settings in speech to text conversions, view https://github.com/Uberi/speech_recognition
-
 <br>
-<br>
-
 <h6>Finally, execute the letsTweet.py under MyTwitterBot/TwitterBot using command "python letsTweet.py".</h6>
 <b><i>P.S.</b> Remember to say 'exit' if you want to quit without tweeting</i>
      
