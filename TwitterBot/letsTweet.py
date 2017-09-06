@@ -25,10 +25,12 @@ try:
 		sys.exit()
 		the_input = raw_input("Do you want to tweet this?(y/n)")
 	    if the_input=="y" or the_input=="Y":
-		apiKey = 'FDl1vNLYwOfKXv30ppxS5NNo6'
-		apiSecret = 'n86fPfB2qptEs44idjSeDk0w2nudwawIRtWCKlIPCyOLmBrMLq'
-		accessToken = '3555481820-NL1uTXrYk13PAZEpU6SlyKOqXH1eUEuRC0RhobO'
-		accessTokenSecret = 'xotwMh0l17T4I9dsAeBBhhDJbNKkUMl0puHmcO3WcaOFX'
+		
+		#SPECIFY YOUR API END POINTS HERE
+		#apiKey = ''
+		#apiSecret = ''
+		#accessToken = ''
+		#accessTokenSecret = ''
 
 		api = Twython(apiKey,apiSecret,accessToken,accessTokenSecret)
 
