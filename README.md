@@ -2,8 +2,7 @@
 A command line utility that can be used to tweet an input from microphone. You'll never have to type again.!!!
 <hr>
 
-<h3 style="display:inline">Requirements</h3>
-<b style="display:inline">(As of now, the instruction set added is only for Ubuntu 14.04 and higher)</b>
+<h3 style="display:inline">Requirements</h3><p style="display:inline"><b>(As of now, the instruction set added is only for Ubuntu 14.04 and higher)</b></p>
 To use all of the functionality of the library, you should have:
     
     Python 2.6, 2.7, or 3.3+ (required)
