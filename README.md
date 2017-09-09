@@ -14,13 +14,15 @@ To use all of the functionality of the library, you should have:
 
 <h4>Commands to run</h4>
 
-    sudo apt-get install python-pip
-    sudo apt-get install portaudio-dev
-    sudo pip install google-api-python-client
-    sudo pip install google-cloud
-    sudo pip install twython
+    (required)sudo apt-get install python-pip (installs latest version of pip)
+    (required)sudo apt-get install portaudio-dev  (installs developer tools forportaudio)
+    (required)sudo apt-get install libasound-dev  (installs ALSA libraries)
+    (required)sudo pip install twython  (installs twitter's twython API)
+    (required)sudo pip install google-api-python-client
+    (required)sudo pip install google-cloud
+    (optional)sudo pip install speech_recognition    
 
-<b>Note</b>-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here https://pypi.python.org/pypi/PyAudio
+<b>Note</b>-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here http://www.portaudio.com/download.html
 and run the following set of commands from inside the portaudio directory
 
     ./configure && make
