@@ -16,11 +16,12 @@ To use all of the functionality of the library, you should have:
 
     sudo apt-get install python-pip
     sudo apt-get install portaudio-dev
+    sudo apt-get install libasound-dev
     sudo pip install google-api-python-client
     sudo pip install google-cloud
     sudo pip install twython
 
-<b>Note</b>-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here https://pypi.python.org/pypi/PyAudio
+<b>Note</b>-To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here http://www.portaudio.com/download.html
 and run the following set of commands from inside the portaudio directory
 
     ./configure && make
