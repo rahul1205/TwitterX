@@ -17,7 +17,9 @@ try:
         try:
             # recognize speech using Google Speech Recognition
             value = r.recognize_google(audio)
-
+	    pa = pyaudio.PyAudio()
+	    print(pa.get_device_count())
+	    sys.exit()
             # we need some special handling here to correctly print unicode characters to standard output
             if str is bytes:  # this version of Python uses bytes for strings (Python 2)
                 print("You said {}".format(value).encode("utf-8"))
