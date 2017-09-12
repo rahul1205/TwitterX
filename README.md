@@ -52,6 +52,6 @@ To use all of the functionality of the library, you should have:
 
 For language changes and other settings in speech to text conversions, view https://github.com/Uberi/speech_recognition/blob/master/reference/library-reference.rst
 <br>
-<h6>Finally, execute the letsTweet.py under MyTwitterBot/TwitterBot using command "python letsTweet.py".</h6>
+<h6>Finally, execute the newTweet.py under MyTwitterBot/TwitterBot using command "python newTweet.py".</h6>
 <b><i>P.S.</b> Remember to say 'exit' if you want to quit without tweeting</i>
      
