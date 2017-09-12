@@ -30,7 +30,7 @@ To use all of the functionality of the library, you should have:
     pip install SpeechRecognition
     sudo pip install google-api-python-client
     
-    <b>Note</b>-Google API has some limit on number of inputs per day. To install other servers when google API is unavailable, refer to https://github.com/Uberi/speech_recognition
+    Note-Google API has some limit on number of inputs per day. To install other servers when google API is unavailable, refer to https://github.com/Uberi/speech_recognition
     
    <h5>Installing Twitter API for python</h5>
     sudo pip install twython
