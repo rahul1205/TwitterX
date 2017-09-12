@@ -2,7 +2,7 @@
 A command line utility that can be used to tweet an input from microphone. You'll never have to type again.!!!
 <hr>
 
-<h3>Requirements</h3><p><b>(As of now, the instruction set added is only for Ubuntu 14.04 and higher)</b></p>
+<h2>Requirements</h2><p><b>(As of now, the instruction set added is only for Ubuntu 14.04 and higher)</b></p>
 To use all of the functionality of the library, you should have:
     
     Python 2.6, 2.7, or 3.3+ (required)
@@ -12,13 +12,13 @@ To use all of the functionality of the library, you should have:
     FLAC encoder (required only if the system is not x86-based Windows/Linux/OS X)
 
 
-<h4>A hassle free guide to quick install from scratch on Python 2.7.6</h4>
+<h3>A hassle free guide to quick install from scratch on Python 2.7.6</h3>
     
-   <h5>Installing pip</h5>
+   <h4>Installing pip</h4>
     sudo apt-get install python-dev
     easy_install pip
     
-   <h5>Installing PyAudio latest Version</h5>
+   <h4>Installing PyAudio latest Version</h4>
     To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here http://www.portaudio.com/download.html
     and run the following set of commands from inside the portaudio directory
 
@@ -26,21 +26,22 @@ To use all of the functionality of the library, you should have:
     sudo make install
     sudo pip install pyaudio --upgrade (run this only if you have an older version of pyaudio)
     
-   <h5>Installing Speech Recognition Module and setting up google API</h5>
+   <h4>Installing Speech Recognition Module and setting up google API</h4>
     pip install SpeechRecognition
     sudo pip install google-api-python-client
     
     Note-Google API has some limit on number of inputs per day. To install other servers when google API is unavailable, refer to https://github.com/Uberi/speech_recognition
     
-   <h5>Installing Twitter API for python</h5>
+   <h4>Installing Twitter API for python</h4>
     sudo pip install twython
     
-   <h5>Installing ALSA libraries</h5>
+   <h4>Installing ALSA libraries</h4>
+    sudo apt-get install libasound
     sudo apt-get install libasound-dev
     
     
     
-<h4>Twitter Setup</h4>
+<h3>Twitter Setup</h3>
      You need a valid twitter account to tweet and need to implement the following steps from your account.
      
      1) Go to https://apps.twitter.com
