@@ -24,7 +24,7 @@ To use all of the functionality of the library, you should have:
 
     ./configure && make
     sudo make install
-    sudo pip install pyaudio --upgrade (run this only if you have an older version of pyaudio)
+    sudo pip install pyaudio --upgrade
     
    <h4>Installing Speech Recognition Module and setting up google API</h4>
     pip install SpeechRecognition
