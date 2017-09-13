@@ -15,8 +15,8 @@ To use all of the functionality of the library, you should have:
 <h3>A hassle free guide to quick install from scratch on Python 2.7.6</h3>
     
    <h4>Installing pip</h4>
-    sudo apt-get install python-dev
-    easy_install pip
+     sudo apt-get install python-dev
+     easy_install pip
     
    <h4>Installing PyAudio latest Version</h4>
     To correctly upgrade/install PyAudio, download and extract the 0.2.11 version from here http://www.portaudio.com/download.html
@@ -27,17 +27,17 @@ To use all of the functionality of the library, you should have:
     sudo pip install pyaudio --upgrade
     
    <h4>Installing Speech Recognition Module and setting up google API</h4>
-    pip install SpeechRecognition
-    sudo pip install google-api-python-client
+     pip install SpeechRecognition
+     sudo pip install google-api-python-client
     
     Note-Google API has some limit on number of inputs per day. To install other servers when google API is unavailable, refer to https://github.com/Uberi/speech_recognition
     
    <h4>Installing Twitter API for python</h4>
-    sudo pip install twython
+     sudo pip install twython
     
    <h4>Installing ALSA libraries</h4>
-    sudo apt-get install libasound
-    sudo apt-get install libasound-dev
+     sudo apt-get install libasound
+     sudo apt-get install libasound-dev
     
     
     
