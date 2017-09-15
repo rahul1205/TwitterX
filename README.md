@@ -16,6 +16,7 @@ To use all of the functionality of the library, you should have:
     
    <h4>Installing pip</h4>
      sudo apt-get install python-dev<br>
+     sudo apt-get install python-setuptools<br>
      easy_install pip
     
    <h4>Installing PyAudio latest Version</h4>
