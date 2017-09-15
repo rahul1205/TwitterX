@@ -37,7 +37,6 @@ To use all of the functionality of the library, you should have:
      sudo pip install twython
     
    <h4>Installing ALSA libraries</h4>
-     sudo apt-get install libasound<br>
      sudo apt-get install libasound-dev
     
     
