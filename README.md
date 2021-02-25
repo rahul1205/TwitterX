@@ -1,4 +1,4 @@
-<h1>SpeakAndTweet</h1>
+<h1>SpeakToTweet</h1>
 A command line utility that can be used to tweet an input from microphone. You'll never have to type again.!!!
 <hr>
 
